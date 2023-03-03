@@ -1,38 +1,108 @@
-.App {
-  text-align: center;
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background-color: #F66000;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+header {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: flex-end;
+  align-items: flex-end;
+  width: 100%;
+  height: 28vh;
+}
+header h1 {
+  width: 90%;
   color: white;
+  font-size: 5em;
 }
-
-.App-link {
-  color: #61dafb;
+header h2 {
+  width: 80%;
+  color: white;
+  font-size: 3em;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 70vh;
+}
+main h2 {
+  width: 26vw;
+  color: white;
+  font-size: 2em;
+  text-align: end;
+}
+main .firstSectionMain div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 60vw;
+  height: 50vh;
+}
+main img {
+  width: 13vw;
+  height: 24vh;
+}
+main .secondSectionMain {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 22vw;
+  height: 70vh;
+  background-color: #F7E0CE;
+  border-radius: 40px;
+}
+main .secondSectionMain div:first-of-type {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 18vw;
+  height: 38vh;
+  background-color: #D3C5BB;
+  border-radius: 40px;
+}
+main .secondSectionMain img {
+  width: 4.5vw;
+  height: 9vh;
+}
+main .secondSectionMain p {
+  width: 10vw;
+  text-align: center;
+  font-size: 0.8em;
+}
+main .secondSectionMain div:last-of-type {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 13vw;
+  height: 7vh;
+  background-color: #D3C5BB;
+  border-radius: 25px;
+  padding: 0 1em;
+}
+main .secondSectionMain button {
+  width: 1.5vw;
+  height: 3vh;
+  background-color: transparent;
+  border-radius: 20px;
+}
+footer {
+  display: flex;
+  align-items: flex-end;
+  width: 100%;
+  height: 30vh;
+}
+footer p {
+  width: 35vw;
+  height: 13vh;
+  text-align: end;
+  color: white;
+  font-size: 1.5em;
 }
